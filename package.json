@@ -1,0 +1,19 @@
+{
+  "scripts": {
+    "build": "turbo run build",
+    "dev": "turbo run dev --filter=playground",
+    "docs": "turbo run dev --filter=docs",
+    "lint": "turbo run lint"
+  },
+  "workspaces": [
+    "packages/*",
+    "apps/*"
+  ],
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "turbo": "latest"
+  },
+  "packageManager": "npm@9.5.0"
+}
