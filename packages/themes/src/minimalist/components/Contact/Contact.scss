@@ -1,4 +1,4 @@
-@use "../tools";
+@use "@ceve/styles/kit";
 
 .contact {
   ul {
@@ -12,11 +12,11 @@
 }
 
 .contact__title {
-  @include tools.spacing("pr", "4");
+  @include kit.spacing("pr", "4");
   display: table-cell;
   text-transform: capitalize;
 }
 
 .contact__content {
-  color: tools.token("color.text.weak");
+  color: kit.token("color.text.weak");
 }

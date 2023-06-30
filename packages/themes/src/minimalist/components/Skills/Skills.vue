@@ -12,3 +12,7 @@ const { skills } = data.data;
     <li v-for="skill in skills" :key="skill.name">{{skill.name}}</li>
   </ul>
 </template>
+
+<style lang="scss" scoped>
+@import "./Skills";
+</style>

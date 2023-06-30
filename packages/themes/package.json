@@ -14,7 +14,8 @@
       "require": "./dist/themes.umd.js",
       "import": "./dist/themes.es.js",
       "types": "./dist/themes.d.ts"
-    }
+    },
+    "./styles": "./dist/style.css"
   },
   "scripts": {
     "dev": "vite build --watch",

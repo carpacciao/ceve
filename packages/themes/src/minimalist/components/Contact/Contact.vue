@@ -15,3 +15,7 @@ const { contact } = data.data;
     </ul>
   </div>
 </template>
+
+<style lang="scss" scoped>
+@import "./Contact";
+</style>

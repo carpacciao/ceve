@@ -3,6 +3,7 @@ import { Experience } from "../Experience";
 import { Contact } from "../Contact";
 import { Skills } from "../Skills";
 import { Education } from "../Education";
+import { Separator } from "../Separator";
 
 </script>
 
@@ -11,19 +12,23 @@ import { Education } from "../Education";
     <div>
       <experience></experience>
 
-      <hr class="separator">
+      <separator></separator>
 
       <contact></contact>
     </div>
 
-    <hr class="vertical">
+    <separator vertical></separator>
 
     <div>
       <skills></skills>
 
-      <hr class="separator">
+      <separator></separator>
 
       <education></education>
     </div>
   </div>
 </template>
+
+<style lang="scss" scoped>
+@import "./Resume";
+</style>

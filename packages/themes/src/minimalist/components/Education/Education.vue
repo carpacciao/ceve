@@ -14,3 +14,7 @@ const { education } = data.data;
     <div class="education__body">{{item.text}}</div>
   </div>
 </template>
+
+<style lang="scss" scoped>
+@import "./Education";
+</style>

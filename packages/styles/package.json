@@ -5,12 +5,15 @@
     "src/index.scss"
   ],
   "main": "src/index.scss",
-  "scripts": {
-    "build": "sass ./src/index.scss ./dist/index.css"
-  },
   "exports": {
     ".": "./src/index.scss",
     "./kit": "./src/kit.scss"
+  },
+  "peerDependencies": {
+    "@ceve/themes": "*"
+  },
+  "dependencies": {
+    "@ceve/themes": "*"
   },
   "devDependencies": {
     "sass": "^1.63.6"

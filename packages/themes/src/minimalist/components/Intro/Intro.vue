@@ -14,3 +14,7 @@ const { personal } = data.data;
     </div>
   </div>
 </template>
+
+<style lang="scss" scoped>
+@import "./Intro";
+</style>

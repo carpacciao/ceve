@@ -1,0 +1,24 @@
+@use "@ceve/styles/kit";
+
+.education:not(:last-child) {
+  @include kit.spacing("mb", "4");
+}
+
+.education__title {
+  @include kit.typography("title");
+  @include kit.spacing("mb", "2");
+}
+
+.education__date {
+  @include kit.typography("body");
+  color: kit.token("color.text.weak");
+}
+
+.education__body {
+  @include kit.typography("body");
+  color: kit.token("color.text.weak");
+
+  li {
+    list-style: disc inside;
+  }
+}

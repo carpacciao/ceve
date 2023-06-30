@@ -20,3 +20,7 @@ const { experience } = data.data;
     </div>
   </div>
 </template>
+
+<style lang="scss" scoped>
+@import "./Experience";
+</style>

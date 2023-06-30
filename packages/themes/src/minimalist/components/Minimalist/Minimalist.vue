@@ -2,13 +2,10 @@
 import { createData, makeDataProps } from "@ceve/core";
 import { Resume } from "../Resume";
 import { Intro } from "../Intro";
+import { Separator } from "../Separator";
 
 const props = defineProps({
   ...makeDataProps(),
-    // data: {
-    //   type: Object as PropType<Data>,
-    //   required: true as const
-    // }
 })
 
 createData(props);
@@ -18,7 +15,7 @@ createData(props);
 <template>
   <div class="page">
     <intro></intro>
-    <hr class="separator">
+    <separator></separator>
     <resume></resume>
   </div>
 </template>

@@ -1,0 +1,30 @@
+@use "@ceve/styles/kit";
+
+.experience:not(:last-child) {
+  @include kit.spacing("mb", "4");
+}
+
+.experience__header {
+  @include kit.spacing("mb", "1");
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience__title {
+  @include kit.typography("title");
+}
+
+.experience__date {
+  @include kit.typography("body");
+  color: kit.token("color.text.weak");
+}
+
+.experience__body {
+  @include kit.typography("body");
+  color: kit.token("color.text.weak");
+
+  li {
+    list-style: disc inside;
+  }
+}
