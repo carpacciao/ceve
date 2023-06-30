@@ -1,0 +1,30 @@
+@use "../tools";
+
+.experience:not(:last-child) {
+  @include tools.spacing("mb", "4");
+}
+
+.experience__header {
+  @include tools.spacing("mb", "1");
+
+  display: flex;
+  justify-content: space-between;
+}
+
+.experience__title {
+  @include tools.typography("title");
+}
+
+.experience__date {
+  @include tools.typography("body");
+  color: tools.token("color.text.weak");
+}
+
+.experience__body {
+  @include tools.typography("body");
+  color: tools.token("color.text.weak");
+
+  li {
+    list-style: disc inside;
+  }
+}

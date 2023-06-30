@@ -1,0 +1,67 @@
+@use "sass:map";
+@use "./tokens";
+
+@mixin spacing ($property, $spacer-step) {
+  $spacers: map.deep-merge(tokens.token("spacing"), (auto: auto));
+  $spacer: map.get($spacers, $spacer-step);
+
+  @if ($property == "ma") {
+    margin: $spacer;
+  }
+
+  @if ($property == "mt") {
+    margin-top: $spacer;
+  }
+
+  @if ($property == "mb") {
+    margin-bottom: $spacer;
+  }
+
+  @if ($property == "my") {
+    margin-top: $spacer;
+    margin-bottom: $spacer;
+  }
+
+  @if ($property == "ml") {
+    margin-left: $spacer;
+  }
+
+  @if ($property == "mr") {
+    margin-right: $spacer;
+  }
+
+  @if ($property == "mx") {
+    margin-left: $spacer;
+    margin-right: $spacer;
+  }
+
+  @if ($property == "pa") {
+    padding: $spacer;
+  }
+
+  @if ($property == "pt") {
+    padding-top: $spacer;
+  }
+
+  @if ($property == "pb") {
+    padding-bottom: $spacer;
+  }
+
+  @if ($property == "py") {
+    padding-top: $spacer;
+    padding-bottom: $spacer;
+  }
+
+  @if ($property == "pl") {
+    padding-left: $spacer;
+  }
+
+  @if ($property == "pr") {
+    padding-right: $spacer;
+  }
+
+  @if ($property == "px") {
+    padding-left: $spacer;
+    padding-right: $spacer;
+  }
+}

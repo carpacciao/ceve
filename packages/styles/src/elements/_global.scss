@@ -1,0 +1,14 @@
+@use "sass:map";
+@use "../tools";
+
+html {
+  font-size: tools.token("typography.core.base-font-size") !important;
+}
+
+body {
+  @include tools.spacing("ma", "0");
+  @include tools.spacing("py", "8");
+  @include tools.typography("body");
+
+  background-color: tools.token("color.shade.light");
+}

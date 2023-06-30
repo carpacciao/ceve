@@ -1,0 +1,24 @@
+@use "../tools";
+
+.education:not(:last-child) {
+  @include tools.spacing("mb", "4");
+}
+
+.education__title {
+  @include tools.typography("title");
+  @include tools.spacing("mb", "2");
+}
+
+.education__date {
+  @include tools.typography("body");
+  color: tools.token("color.text.weak");
+}
+
+.education__body {
+  @include tools.typography("body");
+  color: tools.token("color.text.weak");
+
+  li {
+    list-style: disc inside;
+  }
+}

@@ -1,0 +1,15 @@
+@use "sass:map";
+@use "../tools";
+
+.page {
+  @include tools.spacing("pa", "6");
+  @include tools.spacing("mx", auto);
+
+  display: flex;
+  flex-direction: column;
+
+  max-width: 21cm;
+  height: 29.68cm; // When printing there was 1 extra pixel
+
+  background-color: tools.token("color.shade.lighter");
+}

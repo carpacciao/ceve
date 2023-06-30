@@ -1,0 +1,14 @@
+@use "../tools";
+
+.resume {
+  display: grid;
+  height: 100%;
+  
+  grid-template-columns: 2fr 1px 1fr;
+  gap: tools.token("spacing.4");
+}
+
+.resume__headline {
+  @include tools.typography("headline");
+  @include tools.spacing("mb", "4");
+}

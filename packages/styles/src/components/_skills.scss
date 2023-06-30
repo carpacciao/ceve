@@ -1,0 +1,7 @@
+@use "../tools";
+
+.skills {
+  @include tools.typography("body");
+  
+  color: tools.token("color.text.weak");
+}

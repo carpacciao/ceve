@@ -1,0 +1,69 @@
+{
+  "personal": {
+    "fullName": "Lucas Van Driessche",
+    "jobTitle": "Web Developer",
+    "about": "Developer web with over 4 years of experience focused on developing and maintaining web applications."
+  },
+  "experience": [
+    {
+      "title": "Front-End developer at AVIV Group",
+      "date": "2022 - present",
+      "tasks": [
+        "Developing and maintaining features on AVIV's various web apps using React (Next) and TypeScript.",
+        "Working on unit/e2e tests.",
+        "Participating in developers standards and web-guilds.",
+        "Working in collaboration with various µFEs of the group."
+      ]
+    },
+    {
+      "title": "Front-End developer at Immoweb",
+      "date": "2022 - 2022",
+      "tasks": [
+        "Developing and maintaining features on Immoweb's various web apps using Vue, TypeScript and Laravel.",
+        "Working in a corporate agile setting with pair programming, 2-weeks sprints, sprint reviews, versions and deployments."
+      ]
+    },
+    {
+      "title": "Full-Stack developer at MolenGeek",
+      "date": "2019 - 2022",
+      "tasks": [
+        "Developing and maintaining features on MolenGeek's various web apps using Vue (Nuxt), Node and Laravel.",
+        "Training students to become future developers.",
+        "Participating in several tech hackathons."
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "Internship at Molengeek",
+      "date": "2018 - 2019",
+      "text": "Training other students and developing first client and internal apps."
+    },
+    {
+      "title": "Student at Molengeek",
+      "date": "2017 - 2018",
+      "text": "6 months training on various web tools (Js, HTML, CSS, Laravel, etc.)."
+    },
+    {
+      "title": "Student at Saint-Luc",
+      "date": "2013 - 2015",
+      "text": "School student in infographics using Adobe suite."
+    }
+  ],
+  "contact": {
+    "phone": "+32 470 09 78 50",
+    "email": "van.driessche.lucas@gmail.com",
+    "linkedIn": "<a href=\"https://www.linkedin.com/in/lucas-van-driessche/\">lucas-van-driessche</a>",
+    "github": "<a href=\"https://github.com/carpacciao\">carpacciao</a>"
+  },
+  "skills": [
+    { "name": "Vue (Nuxt)", "strong": true },
+    { "name": "React (Next)", "strong": true },
+    { "name": "CSS (SASS)", "strong": true },
+    { "name": "TypeScript", "strong": true },
+    { "name": "Node", "strong": true },
+    { "name": "Laravel", "strong": true },
+    { "name": "French", "strong": true },
+    { "name": "English", "strong": true }
+  ]
+}

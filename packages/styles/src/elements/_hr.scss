@@ -1,0 +1,16 @@
+@use "../tools";
+
+hr {
+  @include tools.spacing("ma", "0");
+
+  height: 1px;
+
+  background-color: tools.token("color.text.weaker");
+  
+  border: none;
+  border-radius: 2px;
+}
+hr.vertical {
+  height: 100%;
+  width: 1px;
+}
