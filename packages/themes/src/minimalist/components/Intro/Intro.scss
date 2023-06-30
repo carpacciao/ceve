@@ -1,7 +1,0 @@
-@use "@ceve/styles/kit";
-
-.mnst-intro {
-  display: grid;
-  grid-template-columns: 2fr 1fr;
-  gap: kit.token("spacing.0");
-}

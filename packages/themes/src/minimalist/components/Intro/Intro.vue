@@ -6,8 +6,8 @@ const { personal } = data.data;
 </script>
 
 <template>
-  <div class="mnst-intro">
-    <div>
+  <div class="row">
+    <div class="col-2">
       <h1>{{ personal.fullName }}</h1>
       <h3>{{ personal.jobTitle }}</h3>
       <p class="mt-2 weak">{{ personal.about }}</p>
