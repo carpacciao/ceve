@@ -1,0 +1,21 @@
+@use "@ceve/styles/kit";
+@use "../../styles/functions";
+
+.mnst-separator {
+  @include kit.spacing("my", "4");
+
+  height: 1px;
+  width: 100%;
+
+  background-color: functions.token("color.text.weaker");
+
+  border: none;
+  border-radius: 2px;
+}
+.mnst-separator--vertical {
+  @include kit.spacing("mx", "4");
+  @include kit.spacing("my", "0");
+
+  height: 100%;
+  width: 1px;
+}

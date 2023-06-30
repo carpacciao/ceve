@@ -1,0 +1,28 @@
+@use "sass:map";
+@use "sass:meta";
+
+@mixin create-utility ($utility) {
+  $class: map.get($utility, "class");
+  $properties: map.get($utility, "properties");
+  $values: map.get($utility, "values");
+  $important: not map.get($utility, "unimportant");
+
+  @if meta.type-of($values) == "map" {
+    @each $key, $value in $values {
+      @include create-utility-class($class, $properties, $key, $value, $important);
+    }
+  }
+  @else {
+    @each $value in $values {
+      @include create-utility-class($class, $properties, $value, $value, $important);
+    }
+  }
+}
+
+@mixin create-utility-class ($class, $properties, $key, $value, $important) {
+  .#{$class}-#{$key} {
+      @each $property in $properties {
+        #{$property}: $value if($important, !important, null);
+      }
+    }
+}

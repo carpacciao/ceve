@@ -1,16 +1,16 @@
 $tokens: (
-  "color": (
-    "shade": (
-      "darker": #000000,
-      "dark": #070707,
-      "lighter": #ffffff,
-      "light": #f6f6f6,
-    ),
-    "text": (
-      "normal": #000000e8,
-      "weak": #00000093,
-      "weaker": #00000052,
+  "typography": (
+    "core": (
+      "base-font-size": var(--typography-core-base-font-size)
     )
+  ),
+  "color": (
+    "body": (
+      "background": var(--color-body-background)
+    ),
+    "page": (
+      "background": var(--color-page-background)
+    ),
   ),
   "spacing": (
     "0": 0,
@@ -26,42 +26,5 @@ $tokens: (
     "10": 20mm,
     "11": 22mm,
     "12": 24mm,
-  ),
-  "typography": (
-    "core": (
-      "base-font-size": 14px,
-    ),
-    "display": (
-      'size': 2rem,
-      'weight': 700,
-      'line-height': 2.5rem,
-      'letter-spacing': 0.005em,
-      'font-family': "Montserrat",
-      'text-transform': none
-    ),
-    "headline": (
-      'size': 1.429rem,
-      'weight': 700,
-      'line-height': 2rem,
-      'letter-spacing': 0.005em,
-      'font-family': "Montserrat",
-      'text-transform': none
-    ),
-    "title": (
-      'size': 1.143rem,
-      'weight': 500,
-      'line-height': 1.714rem,
-      'letter-spacing': 0.005em,
-      'font-family': "Montserrat",
-      'text-transform': none
-    ),
-    "body": (
-      'size': 1rem,
-      'weight': 400,
-      'line-height': 1.5rem,
-      'letter-spacing': 0.005em,
-      'font-family': "Open Sans",
-      'text-transform': none
-    ),
   ),
 );

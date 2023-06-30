@@ -1,6 +1,11 @@
+@use "../tools";
+
 @media print {
   body {
     margin: 0 !important;
     padding: 0 !important;
+  }
+  .page {
+    @include tools.spacing("mb", "0");
   }
 }

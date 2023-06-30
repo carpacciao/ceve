@@ -6,4 +6,6 @@ import resume from "./data/resume.json";
 
 <template>
   <minimalist :data="resume"></minimalist>
+  <minimalist :data="resume"></minimalist>
+  <minimalist :data="resume"></minimalist>
 </template>

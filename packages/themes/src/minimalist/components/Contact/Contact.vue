@@ -6,12 +6,16 @@ const { contact } = data.data;
 </script>
 
 <template>
-  <div class="contact">
+  <div class="mnst-contact">
     <ul>
       <li v-for="(value, name) in contact" :key="value">
-        <span class="contact__title">{{name}}:</span>
-        <span class="contact__content" v-html="value"></span>
+        <span class="mnst-contact__title pr-4">{{name}}:</span>
+        <span class="weak" v-html="value"></span>
       </li>
     </ul>
   </div>
 </template>
+
+<style lang="scss">
+@import "./Contact";
+</style>

@@ -1,0 +1,78 @@
+@use "sass:map";
+@use "../tools/tokens";
+
+$utilities: (
+  // spacing
+  "margin": (
+    properties: margin,
+    class: ma,
+    values: map.merge(tokens.token("spacing"), (auto: auto))
+    // unimportant: true // not usefull but maybe in future
+  ),
+  "margin-left": (
+    properties: margin-left,
+    class: ml,
+    values: map.merge(tokens.token("spacing"), (auto: auto))
+  ),
+  "margin-right": (
+    properties: margin-right,
+    class: mr,
+    values: map.merge(tokens.token("spacing"), (auto: auto))
+  ),
+  "margin-top": (
+    properties: margin-top,
+    class: mt,
+    values: map.merge(tokens.token("spacing"), (auto: auto))
+  ),
+  "margin-bottom": (
+    properties: margin-bottom,
+    class: mb,
+    values: map.merge(tokens.token("spacing"), (auto: auto))
+  ),
+  "margin-x": (
+    properties: margin-left margin-right,
+    class: mx,
+    values: map.merge(tokens.token("spacing"), (auto: auto))
+  ),
+  "margin-y": (
+    properties: margin-top margin-bottom,
+    class: my,
+    values: map.merge(tokens.token("spacing"), (auto: auto))
+  ),
+
+  "padding": (
+    properties: padding,
+    class: pa,
+    values: map.merge(tokens.token("spacing"), (auto: auto))
+  ),
+  "padding-left": (
+    properties: padding-left,
+    class: pl,
+    values: map.merge(tokens.token("spacing"), (auto: auto))
+  ),
+  "padding-right": (
+    properties: padding-right,
+    class: pr,
+    values: map.merge(tokens.token("spacing"), (auto: auto))
+  ),
+  "padding-top": (
+    properties: padding-top,
+    class: pt,
+    values: map.merge(tokens.token("spacing"), (auto: auto))
+  ),
+  "padding-bottom": (
+    properties: padding-bottom,
+    class: pb,
+    values: map.merge(tokens.token("spacing"), (auto: auto))
+  ),
+  "padding-x": (
+    properties: padding-left padding-right,
+    class: px,
+    values: map.merge(tokens.token("spacing"), (auto: auto))
+  ),
+  "padding-y": (
+    properties: padding-top padding-bottom,
+    class: py,
+    values: map.merge(tokens.token("spacing"), (auto: auto))
+  ),
+)
