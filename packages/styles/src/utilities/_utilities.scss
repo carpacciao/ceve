@@ -1,0 +1,7 @@
+@use "sass:map";
+@use "../settings";
+@use "../tools";
+
+@each $key, $utility in settings.$utilities {
+  @include tools.create-utility ($utility)
+}

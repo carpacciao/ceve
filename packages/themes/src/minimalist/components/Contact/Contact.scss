@@ -1,0 +1,15 @@
+.mnst-contact {
+  ul {
+    display: table;
+  }
+
+  li {
+    display: table-row;
+  }
+
+}
+
+.mnst-contact__title {
+  display: table-cell;
+  text-transform: capitalize !important;
+}

@@ -2,13 +2,10 @@
 import { createData, makeDataProps } from "@ceve/core";
 import { Resume } from "../Resume";
 import { Intro } from "../Intro";
+import { Separator } from "../Separator";
 
 const props = defineProps({
   ...makeDataProps(),
-    // data: {
-    //   type: Object as PropType<Data>,
-    //   required: true as const
-    // }
 })
 
 createData(props);
@@ -16,9 +13,13 @@ createData(props);
 </script>
 
 <template>
-  <div class="page">
+  <div class="page mnst">
     <intro></intro>
-    <hr class="separator">
+    <separator></separator>
     <resume></resume>
   </div>
 </template>
+
+<style lang="scss">
+@import "./Minimalist";
+</style>

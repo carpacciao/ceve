@@ -6,17 +6,19 @@ const { experience } = data.data;
 </script>
 
 <template>
-  <div class="resume__headline">Experience</div>
+  <h2 class="mb-4">Experience</h2>
 
-  <div class="experience" v-for="item in experience" :key="item.title">
-    <div class="experience__header">
-      <span class="experience__title">{{ item.title }}</span>
-      <span class="experience__date">{{ item.date }}</span>
+  <div class="mnst-experience mb-4" v-for="item in experience" :key="item.title">
+    <div class="mnst-experience__header mb-1">
+      <h3>{{ item.title }}</h3>
+      <span class="weak">{{ item.date }}</span>
     </div>
-    <div class="experience__body">
-      <ul>
-        <li v-for="task in item.tasks" :key="task">{{ task }}</li>
-      </ul>
-    </div>
+    <ul class="weak">
+      <li v-for="task in item.tasks" :key="task">{{ task }}</li>
+    </ul>
   </div>
 </template>
+
+<style lang="scss" scoped>
+@import "./Experience";
+</style>

@@ -1,0 +1,10 @@
+.mnst-experience {
+  li {
+    list-style: disc inside;
+  }
+}
+
+.mnst-experience__header {
+  display: flex;
+  justify-content: space-between;
+}

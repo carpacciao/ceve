@@ -7,8 +7,8 @@ const { skills } = data.data;
 
 
 <template>
-  <div class="resume__headline">Skills</div>
-  <ul class="skills">
+  <h2 class="mb-4">Skills</h2>
+  <ul class="weak">
     <li v-for="skill in skills" :key="skill.name">{{skill.name}}</li>
   </ul>
 </template>
