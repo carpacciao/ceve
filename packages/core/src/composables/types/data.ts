@@ -15,6 +15,7 @@ export interface Data {
 }
 
 export interface Personal {
+  picture: string;
   fullName: string;
   jobTitle: string;
   about: string;
