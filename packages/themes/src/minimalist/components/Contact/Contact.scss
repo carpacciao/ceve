@@ -1,6 +1,4 @@
-@use "@ceve/styles/kit";
-
-.contact {
+.mnst-contact {
   ul {
     display: table;
   }
@@ -11,12 +9,7 @@
 
 }
 
-.contact__title {
-  @include kit.spacing("pr", "4");
+.mnst-contact__title {
   display: table-cell;
-  text-transform: capitalize;
-}
-
-.contact__content {
-  color: kit.token("color.text.weak");
+  text-transform: capitalize !important;
 }

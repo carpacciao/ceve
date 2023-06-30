@@ -1,0 +1,20 @@
+@use "../../styles/mixins";
+@use "../../styles/functions";
+
+.mnst {
+  @include mixins.typography("body");
+
+  h1 {
+    @include mixins.typography("display");
+  }
+  h2 {
+    @include mixins.typography("headline");
+  }
+  h3 {
+    @include mixins.typography("title");
+  }
+
+  .weak {
+    color: functions.token("color.text.weak");
+  }
+}

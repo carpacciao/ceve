@@ -1,13 +1,6 @@
-@use "@ceve/styles/kit";
-
-.resume {
+.mnst-resume {
   display: grid;
   height: 100%;
 
   grid-template-columns: 2fr auto 1fr;
-}
-
-.resume__headline {
-  @include kit.typography("headline");
-  @include kit.spacing("mb", "4");
 }

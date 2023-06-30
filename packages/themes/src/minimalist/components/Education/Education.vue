@@ -6,15 +6,15 @@ const { education } = data.data;
 </script>
 
 <template>
-  <div class="resume__headline">Education</div>
+  <h2 class="mb-4">Education</h2>
 
-  <div class="education" v-for="item in education" :key="item.title">
-    <div class="education__date">{{item.date}}</div>
-    <div class="education__title">{{item.title}}</div>
-    <div class="education__body">{{item.text}}</div>
+  <div class="mnst-education mb-4" v-for="item in education" :key="item.title">
+    <div class="weak">{{item.date}}</div>
+    <h3 class="mb-1">{{item.title}}</h3>
+    <p class="weak">{{item.text}}</p>
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "./Education";
 </style>

@@ -1,7 +1,0 @@
-@use "@ceve/styles/kit";
-
-.skills {
-  @include kit.typography("body");
-
-  color: kit.token("color.text.weak");
-}

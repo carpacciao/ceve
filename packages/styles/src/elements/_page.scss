@@ -11,5 +11,9 @@
   max-width: 21cm;
   height: 29.68cm; // When printing there was 1 extra pixel
 
-  background-color: tools.token("color.shade.lighter");
+  background-color: tools.token("color.page.background");
+}
+
+.page:not(:last-child) {
+  @include tools.spacing("mb", "8");
 }

@@ -8,8 +8,8 @@ const props = defineProps({
   }
 })
 const computedClasses = computed(() => [
-  "separator",
-  props.vertical ? "separator--vertical" : "",
+  "mnst-separator",
+  props.vertical ? "mnst-separator--vertical" : "",
 ]);
 </script>
 
@@ -17,6 +17,6 @@ const computedClasses = computed(() => [
   <hr :class="computedClasses">
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "./Separator";
 </style>

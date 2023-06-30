@@ -1,0 +1,11 @@
+@use "sass:map";
+@use "./functions";
+
+@mixin typography($token) {
+  font-size: functions.token("typography." + $token + ".size");
+  font-weight: functions.token("typography." + $token + ".weight");
+  line-height: functions.token("typography." + $token + ".line-height");
+  letter-spacing: functions.token("typography." + $token + ".letter-spacing");
+  font-family: functions.token("typography." + $token + ".font-family");
+  text-transform: functions.token("typography." + $token + ".text-transform");
+}

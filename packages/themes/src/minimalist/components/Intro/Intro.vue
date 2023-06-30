@@ -6,15 +6,15 @@ const { personal } = data.data;
 </script>
 
 <template>
-  <div class="intro">
-    <div class="col-lg">
-      <div class="intro__name">{{ personal.fullName }}</div>
-      <div class="intro__title">{{ personal.jobTitle }}</div>
-      <p class="intro__about">{{ personal.about }}</p>
+  <div class="mnst-intro">
+    <div>
+      <h1>{{ personal.fullName }}</h1>
+      <h3>{{ personal.jobTitle }}</h3>
+      <p class="mt-2 weak">{{ personal.about }}</p>
     </div>
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "./Intro";
 </style>

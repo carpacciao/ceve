@@ -13,9 +13,13 @@ createData(props);
 </script>
 
 <template>
-  <div class="page">
+  <div class="page mnst">
     <intro></intro>
     <separator></separator>
     <resume></resume>
   </div>
 </template>
+
+<style lang="scss">
+@import "./Minimalist";
+</style>

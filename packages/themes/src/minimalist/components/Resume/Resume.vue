@@ -8,7 +8,7 @@ import { Separator } from "../Separator";
 </script>
 
 <template>
-  <div class="resume">
+  <div class="mnst-resume">
     <div>
       <experience></experience>
 
@@ -29,6 +29,6 @@ import { Separator } from "../Separator";
   </div>
 </template>
 
-<style lang="scss" scoped>
+<style lang="scss">
 @import "./Resume";
 </style>

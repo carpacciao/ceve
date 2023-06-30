@@ -1,31 +1,21 @@
 @use "@ceve/styles/kit";
+@use "../../styles/functions";
 
-.separator {
+.mnst-separator {
   @include kit.spacing("my", "4");
+
   height: 1px;
-  background-color: kit.token("color.text.weaker");
+  width: 100%;
+
+  background-color: functions.token("color.text.weaker");
+
   border: none;
   border-radius: 2px;
 }
-.separator--vertical {
+.mnst-separator--vertical {
   @include kit.spacing("mx", "4");
   @include kit.spacing("my", "0");
+
   height: 100%;
   width: 1px;
 }
-
-
-// hr {
-//   @include tools.spacing("ma", "0");
-
-//   height: 1px;
-
-//   background-color: tools.token("color.text.weaker");
-
-//   border: none;
-//   border-radius: 2px;
-// }
-// hr.vertical {
-//   height: 100%;
-//   width: 1px;
-// }

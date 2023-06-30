@@ -1,22 +1,7 @@
 @use "@ceve/styles/kit";
 
-.intro {
+.mnst-intro {
   display: grid;
   grid-template-columns: 2fr 1fr;
   gap: kit.token("spacing.0");
-}
-
-.intro__name {
-  @include kit.typography("display");
-}
-
-.intro__title {
-  @include kit.typography("title");
-}
-
-.intro__about {
-  @include kit.typography("body");
-  @include kit.spacing("mt", "2");
-
-  color: kit.token("color.text.weak");
 }
