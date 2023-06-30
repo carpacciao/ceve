@@ -8,8 +8,8 @@ import { Separator } from "../Separator";
 </script>
 
 <template>
-  <div class="mnst-resume">
-    <div>
+  <div class="row">
+    <div class="col-fill">
       <experience></experience>
 
       <separator></separator>
@@ -17,9 +17,11 @@ import { Separator } from "../Separator";
       <contact></contact>
     </div>
 
-    <separator vertical></separator>
+    <div class="col-auto">
+      <separator vertical></separator>
+    </div>
 
-    <div>
+    <div class="col-1">
       <skills></skills>
 
       <separator></separator>
