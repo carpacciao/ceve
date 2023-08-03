@@ -1,0 +1,7 @@
+@use "@ceve/styles/kit";
+
+.hglt-contact {
+  li:not(:last-child) {
+    @include kit.spacing("mb", "1");
+  }
+}

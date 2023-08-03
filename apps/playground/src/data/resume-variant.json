@@ -4,13 +4,13 @@
     "fullName": "Lucas Van Driessche",
     "firstName": "Lucas",
     "lastName": "Van Driessche",
-    "jobTitle": "Web Developer",
+    "jobTitle": "Web <br> Developer",
     "about": "Developer web with over 4 years of experience focused on developing and maintaining web applications."
   },
   "experience": [
     {
-      "title": "Front-End developer at AVIV Group",
-      "date": "2022 - present",
+      "title": "Front-End developer",
+      "date": " AVIV Group | 2022 - present",
       "tasks": [
         "Developing and maintaining features on AVIV's various web apps using React (Next) and TypeScript.",
         "Working on unit/e2e tests.",
@@ -19,16 +19,16 @@
       ]
     },
     {
-      "title": "Front-End developer at Immoweb",
-      "date": "2022 - 2022",
+      "title": "Front-End developer",
+      "date": "Immoweb | 2022 - 2022",
       "tasks": [
         "Developing and maintaining features on Immoweb's various web apps using Vue, TypeScript and Laravel.",
         "Working in a corporate agile setting with pair programming, 2-weeks sprints, sprint reviews, versions and deployments."
       ]
     },
     {
-      "title": "Full-Stack developer at MolenGeek",
-      "date": "2019 - 2022",
+      "title": "Full-Stack developer",
+      "date": "MolenGeek | 2019 - 2022",
       "tasks": [
         "Developing and maintaining features on MolenGeek's various web apps using Vue (Nuxt), Node and Laravel.",
         "Training students to become future developers.",
@@ -38,18 +38,18 @@
   ],
   "education": [
     {
-      "title": "Internship at Molengeek",
-      "date": "2018 - 2019",
+      "title": "Internship",
+      "date": "Molengeek | 2018 - 2019",
       "text": "Training other students and developing first client and internal apps."
     },
     {
-      "title": "Student at Molengeek",
-      "date": "2017 - 2018",
+      "title": "Student",
+      "date": "Molengeek | 2017 - 2018",
       "text": "6 months training on various web tools (Js, HTML, CSS, Laravel, etc.)."
     },
     {
-      "title": "Student at Saint-Luc",
-      "date": "2013 - 2015",
+      "title": "Student",
+      "date": "Saint-Luc | 2013 - 2015",
       "text": "School student in infographics using Adobe suite."
     }
   ],

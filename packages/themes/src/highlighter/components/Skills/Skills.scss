@@ -1,0 +1,9 @@
+@use "../../styles/functions";
+
+.hglt-skill {
+  color: functions.token("color.text.weaker");
+}
+
+.hglt-skill--strong {
+  color: functions.token("color.primary.75");
+}
