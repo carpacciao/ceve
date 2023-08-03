@@ -1,0 +1,56 @@
+$tokens: (
+  "color": (
+    "primary": (
+      "25": #D7B9FF,
+      "75": #4A099F,
+      "100": #2A0062,
+    ),
+    "text": (
+      "normal": #000000e8,
+      "weak": #000000bd,
+      "weaker": #0000006f,
+    )
+  ),
+ "typography": (
+    "display": (
+      'size': 2.75rem,
+      'weight': 700,
+      'line-height': 3.25rem,
+      'letter-spacing': 0.3em,
+      'font-family': "Poppins",
+      'text-transform': none
+    ),
+    "headline": (
+      'size': 1.8rem,
+      'weight': 700,
+      'line-height': 2rem,
+      'letter-spacing': 0.005em,
+      'font-family': "Poppins",
+      'text-transform': uppercase
+    ),
+    "title": (
+      'size': 1.300rem,
+      'weight': 500,
+      'line-height': 1.714rem,
+      'letter-spacing': 0.1em,
+      'font-family': "Poppins",
+      'text-transform': uppercase
+    ),
+    "subtitle": (
+      'size': 1.1rem,
+      'weight': 200,
+      'line-height': 1.5rem,
+      'letter-spacing': 0.005em,
+      'font-family': "Poppins",
+      'text-transform': uppercase
+    ),
+    "body": (
+      'size': 1rem,
+      'weight': 400,
+      'line-height': 1.5rem,
+      'letter-spacing': 0.05em,
+      'font-family': "Open Sans",
+      'text-transform': none
+    ),
+  )
+)

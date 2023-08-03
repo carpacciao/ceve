@@ -1,0 +1,13 @@
+@use "sass:list";
+@use "sass:map";
+@use "@ceve/styles/kit";
+@use "./variables";
+
+@function token($path) {
+  $list: kit.str-split($path, ".");
+  $value: variables.$tokens;
+  @for $i from 1 through list.length($list) {
+    $value: map.get($value, list.nth($list, $i));
+  }
+  @return $value;
+}

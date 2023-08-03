@@ -1,0 +1,43 @@
+@use "../../styles/mixins";
+@use "../../styles/functions";
+
+.hglt {
+  @include mixins.typography("body");
+
+  h1 {
+    @include mixins.typography("display");
+  }
+  h2 {
+    @include mixins.typography("headline");
+    display: inline-block;
+    position: relative;
+    z-index: 1;
+    &:before {
+      z-index: -1;
+      content: "";
+      display: block;
+      width: calc(100% + 4mm);
+      height: 1em;
+      background-color: functions.token("color.primary.25");
+      position: absolute;
+      top: -25%;
+      transform: translateX(-2mm)
+    }
+  }
+  h3 {
+    @include mixins.typography("title");
+    color: functions.token("color.primary.100");
+  }
+
+  h4 {
+    @include mixins.typography("subtitle");
+    color: functions.token("color.text.weak");
+  }
+
+  .weak {
+    color: functions.token("color.text.weak");
+  }
+  .weaker {
+    color: functions.token("color.text.weaker");
+  }
+}

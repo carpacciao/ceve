@@ -25,6 +25,9 @@
     "vue": "^3.2.47"
   },
   "dependencies": {
+    "@fontsource/montserrat": "^5.0.3",
+    "@fontsource/open-sans": "^5.0.3",
+    "@fontsource/poppins": "^5.0.3",
     "vue": "^3.2.47"
   },
   "devDependencies": {
